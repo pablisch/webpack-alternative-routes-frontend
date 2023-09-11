@@ -1,0 +1,26 @@
+{
+  "name": "webpack-test-frontend",
+  "version": "1.0.0",
+  "description": "A test of webpack combining [this](https://medium.com/jeremy-gottfrieds-tech-blog/tutorial-how-to-build-a-webpack-app-with-vanilla-js-or-react-72ca2cc7e14) article on Webpack by Jeremy Gottfried and a project I am currently working on deploying called [Alternative Routes](https://github.com/pablisch/alternative-routes-app-with-openai).",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development --open",
+    "start": "webpack --mode development && node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^6.8.1",
+    "express": "^4.18.2",
+    "script-loader": "^0.7.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
